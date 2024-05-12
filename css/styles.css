@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 16px;
@@ -81,6 +87,12 @@ body {
     color: #2e2f42;
     list-style-type: none;
     text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+    padding-left: 76px;
 
 }
 
@@ -91,6 +103,8 @@ body {
     color: #2e2f42;
     list-style-type: none;
     text-decoration: none;
+
+
 }
 
 .menu-link:hover {
@@ -102,13 +116,23 @@ body {
 }
 
 
+
 .contacts {
     background-color: #ffffff;
     font-style: normal;
+ padding-left: 332px;
 }
 
 .contacts-item {
     list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 40px;
+   
+
+
 }
 
 .contacts-link {
@@ -118,6 +142,8 @@ body {
     color: #434455;
     font-style: normal;
     text-decoration: none;
+    text-wrap: nowrap;
+
 }
 
 .contacts-link:hover {
@@ -138,12 +164,28 @@ body {
     color: #4D5AE5;
     list-style-type: none;
     text-decoration: none;
-}
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 0px;
+    padding-left: 156px;
+     }
 
 .box .logo-link .logo {
     color: #2e2f42;
 }
 
+.box {
+display: flex;
+}
+
+.container-menu {
+    width: 1440px;
+    height: 72px;
+    display: flex;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+  }
 
 .button:focus {
     background-color: #404BBF;
@@ -154,8 +196,12 @@ body {
 }
 
 .footer-box {
-
     background: #2e2f42;
+    width: 1440;
+    height: 312;
+    padding: 100px 0;
+    margin: 120px 0;
+
 }
 
 .footer-text {
@@ -163,6 +209,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    width: 264px;
 }
 
 .footer-link {
@@ -175,8 +222,28 @@ body {
     color: #4D5AE5;
     list-style-type: none;
     text-decoration: none;
+
 }
 
 .footer-box .footer-link .logo {
     color: #f4f4fd;
 }
+
+.container-footer {
+
+}
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+
+
