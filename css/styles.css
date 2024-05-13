@@ -11,9 +11,9 @@ body {
     line-height: 1, 5;
     letter-spacing: 2%;
     background-color: #ffffff;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+    display: block;
+    margin: 0;
+
 }
 
 .page-tittle {
@@ -55,7 +55,7 @@ body {
     color: #434455;
 }
 
-.club-list {
+.club-list-section {
     background-color: #FFFFFF;
     list-style-type: none;
     display: flex;
@@ -69,6 +69,11 @@ body {
 .fonts {
     background-color: #2E2F42;
 
+}
+
+.club-list {
+    background-color: #FFFFFF;
+    list-style-type: none;
 }
 
 .first-section {
@@ -120,7 +125,7 @@ body {
     justify-content: flex-start;
     flex-direction: row;
     gap: 0px;
-    padding-left: 156px;
+    margin-right: 76px;
 }
 
 .box .logo-link .logo {
@@ -129,7 +134,7 @@ body {
 
 .box {
     display: flex;
-
+    align-items: center;
 }
 .menu {
     font-weight: 500;
@@ -139,11 +144,8 @@ body {
     list-style-type: none;
     text-decoration: none;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 40px;
-    padding-left: 76px;
+    
 
 
 }
@@ -155,7 +157,8 @@ body {
     color: #2e2f42;
     list-style-type: none;
     text-decoration: none;
-
+    display: block;
+    padding: 24px 0;
 }
 
 .menu-link:hover {
@@ -172,14 +175,12 @@ body {
     background-color: #ffffff;
     font-style: normal;
     padding-left: 332px;
+    margin-left: auto;
 }
 
 .contacts-item {
     list-style-type: none;
     display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
     gap: 40px;
 }
 
@@ -221,8 +222,11 @@ body {
     background-color: #404BBF;
 }
 
-.section-fonts {
+.section-three {
     background-color: #F4F4FD;
+    display: block;
+    padding-top: 111;
+    padding-bottom: 120;
 }
 
 .footer-box {
