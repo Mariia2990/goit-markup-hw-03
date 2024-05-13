@@ -58,6 +58,8 @@ body {
 .club-list {
     background-color: #FFFFFF;
     list-style-type: none;
+    display: flex;
+    gap: 24px;
 }
 
 .club-list-item {
@@ -203,7 +205,6 @@ body {
    width: 1158px;
    padding: 0 15px;
    margin: 0 auto;
-   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25), 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
 .container-menu {
@@ -290,4 +291,5 @@ body {
     width: 1158px;
     padding: 0 15px;
     margin: 0 auto;
+    
 }
