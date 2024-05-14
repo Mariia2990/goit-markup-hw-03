@@ -86,11 +86,6 @@ a {
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-start;
-    flex-direction: row;
-    gap: 10px;
     display: block;
     min-width: 169px;
     height: 56px;
@@ -139,8 +134,6 @@ a {
     color: #2e2f42;
     display: flex;
     gap: 40px;
-    
-
 
 }
 
@@ -171,7 +164,6 @@ a {
 }
 
 .contacts-list {
-    list-style-type: none;
     display: flex;
     gap: 40px;
 }
@@ -194,15 +186,15 @@ a {
     color: #404bbf;
 }
 .container {
-   width: 1158px;
-   padding: 0 15px;
-   margin: 0 auto;
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
 .container-menu {
     display: flex;
     align-items: center;
-  }
+}
 
 .header {
     border-bottom: 1px solid #e7e9fc;
@@ -283,22 +275,25 @@ a {
 }
 
 .qualities-list-section {
-
+    display: flex;
+    gap: 24px;
 }
 
 .qualities-item {
+     display: list-item;
 
 }
 
 .section-three {
     background-color: #F4F4FD;
     display: block;
-    padding-top: 111;
+    padding-top: 120;
     padding-bottom: 120;
 }
 
 .team-list-section-three {
     background-color: #ffffff;
+
 }
 
 .team-item {
